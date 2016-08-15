@@ -82,6 +82,7 @@ import {TwitterConnect} from './plugins/twitter-connect';
 import {Vibration} from './plugins/vibration';
 import {VideoPlayer} from './plugins/video-player';
 import {WebIntent} from './plugins/webintent';
+import {Purchase} from "./plugins/purchase";
 export * from './plugins/3dtouch';
 export * from './plugins/background-geolocation';
 export * from './plugins/backgroundmode';
@@ -108,6 +109,7 @@ export * from './plugins/localnotifications';
 export * from './plugins/media';
 export * from './plugins/media-capture';
 export * from './plugins/printer';
+export * from './plugins/purchase';
 export * from './plugins/push';
 export * from './plugins/safari-view-controller';
 export * from './plugins/sms';
@@ -150,6 +152,7 @@ export {
   Network,
   OneSignal,
   PhotoViewer,
+  Purchase,
   ScreenOrientation,
   PinDialog,
   Screenshot,
@@ -223,6 +226,7 @@ window['IonicNative'] = {
   NativeStorage: NativeStorage,
   Network: Network,
   Printer: Printer,
+  Purchase: Purchase,
   Push: Push,
   OneSignal: OneSignal,
   PhotoViewer: PhotoViewer,
